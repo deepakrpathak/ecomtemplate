@@ -1,0 +1,104 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html,body {
+   height: 100%; 
+}
+#wrap {
+  min-height: 100%;
+}
+ul, li {
+    list-style: none;
+}
+#main {
+  *overflow:auto;
+  *padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+body {
+background-color:#e4e4e4;
+color: #333;
+font-weight: lighter;
+font-family: 'Segoe UI Light','Segoe UI','Helvetica Nueu',Helvetica,Arial,sans-serif;
+}
+
+.hero-unit {
+    *background-color: #0094aa;
+    *background-color: #FA8258;
+    background: transparent;
+    border-radius: 0px;
+    color: #777777;
+}
+.center-title {
+    text-align: center;
+}
+.btn-large {
+    border-radius: 0px;
+}
+.navbar-fixed-top .navbar-inner {
+   background: #0094aa;
+   border: 0px; 
+   color: #fff;
+}
+.navbar .brand{
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    _margin: 0 15px;
+}
+
+.bg-text {
+    background: #0094aa;
+    padding: 0 10px;
+}
+footer {
+  position:relative;
+  color: #fff;
+   left:0px;
+   bottom:0px;
+   height:auto;
+   width:100%;
+   background:#0094aa;
+}
+footer .info {
+   border: 1px; 
+   color: #fff; 
+}
+
+/*----------------------------------------image stack styles ----------------------------*/
+.pics img {
+    height: 256px;
+    width: 256px;
+}
+.span4 p{
+    margin: 10px;
+}
+footer .social-info li {
+    list-style: none;
+    float: left;
+}
+footer .generic-info a{
+    
+    color: #fff;
+}
+input[type="email"]{
+    *border: 3px solid #0094aa;
+    border-radius: 0px;
+    height: 30px;
+    width: 200px;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    transition: all 500ms linear;
+}
+input[type="email"]:focus {
+    background-color:#eee; 
+    border:3px solid #ff6a00;
+    width: 300px;
+}
+p.right {
+    float: right;
+    content: "&copy; Company 2012";
+}
